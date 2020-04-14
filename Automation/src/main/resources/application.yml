@@ -1,0 +1,42 @@
+selenium:
+  screenshotOnFailure: true
+  screenshotDestinationFolder: ./target/cucumber/errors/
+  webbrowser: ${webbrowser}
+browser:
+  platform: ${platform}
+environment:
+  baseurl: https://qa.creditrepaircloud.com
+  username: sri88241@gmail.com
+  password: 123456
+  newPassword: 123457
+  loggedinUser: Srilekha
+
+---
+ spring: 
+  profiles: qa
+ environment: 
+  baseurl: https://qa.creditrepaircloud.com
+  username: sri88241@gmail.com 
+  password: 123456
+  newPassword: 123457
+  loggedinUser: Srilekha 
+
+---
+ spring: 
+  profiles: staging
+ environment: 
+  baseurl: https://staging.creditrepaircloud.com 
+  username: sri88241@gmail.com 
+  password: 123456 
+  newPassword: 123457
+  loggedinUser: Srilekha 
+
+---
+ spring: 
+  profiles: production
+ environment: 
+  baseurl: https://app.creditrepaircloud.com 
+  username: sri88241@gmail.com 
+  password: 123456 
+  newPassword: 123457
+  loggedinUser: Srilekha 
