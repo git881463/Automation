@@ -14,7 +14,7 @@
 		<logback-version>1.2.3</logback-version>
 		<apache-commons-version>2.6</apache-commons-version>
 		<yaml-version>1.23</yaml-version>
-		<junit-version>4.12</junit-version>
+		<junit-version>4.13.1</junit-version>
 		<!--<webbrowser>firefox</webbrowser>-->
 		<extentreport-version>4.0.6</extentreport-version>
 		<cucumber-extentretport-version>3.1.0</cucumber-extentretport-version>
