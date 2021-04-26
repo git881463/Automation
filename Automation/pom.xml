@@ -12,7 +12,7 @@
 		<spring-version>5.1.5.RELEASE</spring-version>
 		<slf4j-version>1.7.25</slf4j-version>
 		<logback-version>1.2.3</logback-version>
-		<apache-commons-version>2.6</apache-commons-version>
+		<apache-commons-version>2.7</apache-commons-version>
 		<yaml-version>1.23</yaml-version>
 		<junit-version>4.12</junit-version>
 		<!--<webbrowser>firefox</webbrowser>-->
